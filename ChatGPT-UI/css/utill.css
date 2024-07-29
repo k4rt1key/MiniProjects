@@ -1,0 +1,164 @@
+.box {
+    width: 90%;
+    height: 40px;
+
+    margin: 3% auto;
+    padding-left: 4%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.box:hover {
+    background-color: #40414f4a;
+    border-radius: 5px;
+}
+
+.box#newChat {
+    align-items: center;
+
+    margin-top: 10px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: 1px solid #40414f;
+
+}
+
+.searchBox {
+
+    min-width: 60vw;
+    max-width: 90%;
+    height: 40px;
+
+    margin: auto;
+    padding-left: 1.5%;
+    border-radius: 8px;
+    font-size: medium;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.day {
+    display: flex;
+    width: 95%;
+    margin: 0% auto;
+    text-align: left;
+}
+
+.subBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 95%;
+    margin: auto;
+    padding: 4%;
+    max-width: 220px;
+    min-height: 45px;
+
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #40414f
+}
+
+.subBox:first-child {
+    background-color: #343541;
+}
+
+/* ######## Icons ######### */
+.hr {
+    display: block;
+    width: 90%;
+    margin: 3px auto;
+    height: 2px;
+    background-color: #40414f
+}
+
+.subBoxIcon1 {
+    scale: 2;
+}
+
+.subBoxIcon2 {
+    scale: 2;
+    width: 15px;
+}
+
+.subBoxIcon3 {
+    margin-bottom: 10px;
+    scale: 2;
+}
+
+.plusIcon {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+/* ###### Mobile Nav ###### */
+.plusIconMobile {
+    font-size: 2rem;
+}
+
+.hamMenu {
+    font-size: 1.5rem;
+}
+
+#hamBTN {
+    text-decoration: none;
+    border: none;
+    background-color: #343541;
+    color: white;
+    cursor: pointer;
+
+    padding: 2%;
+}
+
+#hamBTN:focus {
+    border: 1px solid white;
+}
+
+/* ####### Meida Queries ###### */
+@media (max-width:850px) {
+
+    .subBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: auto;
+        padding: 4%;
+        max-width: 95%;
+        min-height: 45px;
+
+        border-radius: 5px;
+        font-size: 0.9rem;
+        text-align: center;
+        background-color: #40414f
+    }
+
+    .searchBox {
+        min-width: 90%;
+        height: 40px;
+
+        margin: auto;
+        padding-left: 3%;
+        border-radius: 8px;
+        font-size: medium;
+
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+@media (min-width: 851px) {
+    #nav {
+        left: 0%;
+    }
+}
